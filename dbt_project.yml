@@ -1,3 +1,5 @@
+-- This YAML file is intentionally broken
+
 name: 'jaffle_shop'
 
 config-version: 2
@@ -5,7 +7,7 @@ version: '0.1'
 
 profile: 'jaffle_shop'
 
-model-paths: ["models"]
+model-paths: ["models"
 seed-paths: ["seeds"]
 test-paths: ["tests"]
 analysis-paths: ["analysis"]
