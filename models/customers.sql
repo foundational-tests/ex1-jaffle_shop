@@ -1,11 +1,9 @@
--- This file intentionally contains SQL syntax errors.
 
+with customers as (
 
-with customers [as (
+    select * from {{ ref'st_customers' }}
 
-    select * from {{ ref('stg_customers') }}
-
-)],
+),
 
 orders as (
 
